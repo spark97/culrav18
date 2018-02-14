@@ -2,13 +2,14 @@
 <html lang="en">
 
 <!-- Mirrored from steelthemes.com/demo/html/evento/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 11 Feb 2018 17:54:16 GMT -->
-<head>
-	<meta charset="UTF-8">
-	<title>Home || Culrav || MNNIT Allahabad</title>
 
-	<!-- responsive meta -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- For IE -->
+<head>
+    <meta charset="UTF-8">
+    <title>Home || Culrav || MNNIT Allahabad</title>
+
+    <!-- responsive meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- For IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- master stylesheet -->
     <link rel="stylesheet" href="css/style.css">
@@ -23,169 +24,133 @@
     <link rel="icon" type="image/png" href="images/favicon/favicon-16x16.png" sizes="16x16">
     <link href="https://fonts.googleapis.com/css?family=Freckle+Face" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="fonts/FEASFBI.TTF" />
 
     <!-- Fixing Internet Explorer-->
     <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <script src="js/html5shiv.js"></script>
         <![endif]-->
-        <style>
-        .overlay-style-one{
+    <style>
+        .overlay-style-one {
             display: none;
         }
-        .tparrows{
+        
+        .tparrows {
             display: none;
         }
-        .event-details{
+        
+        .event-details {
             text-align: right;
         }
-        .event-name{
-            font-family: 'Freckle Face', cursive;        
+        
+        .event-name {
+            font-family: 'Freckle Face', cursive;
         }
-        .tag-line{
+        
+        .tag-line {
             font-size: 1.4em;
         }
-        .top-text{
+        
+        .top-text {
             font-size: 1.2em;
         }
-        .footer-bottom-area{
+        
+        .footer-bottom-area {
             background-color: #000000cc;
             color: white;
             font-weight: 600;
         }
-        </style>
-    </head>
-    <body>
-        <div class="boxed_wrapper">
+        
+        .main {
+            font-family: feast;
+            font-size: 46px;
+            position: absolute;
+            left: -10px;
+        }
+        
+        @font-face {
+            font-family: feast;
+            src: url('fonts/FEASFBI_.TTF');
+        }
+    </style>
+</head>
 
-            <!--Start Preloader -->
-            <div class="preloader"></div>
-            <!--End Preloader --> 
+<body>
+    <div class="boxed_wrapper">
 
-            <!--Start mainmenu area-->
-            <section class="mainmenu-area stricky">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 clearfix">
-                            <!--Start logo-->
-                            <div class="logo pull-left">
-                                <a href="index.html">
-                                    <img src="images/resources/logo-h4.png" alt="Awesome Logo">
-                                </a>
-                            </div>
-                            <!--End logo-->
-                            <!--Start mainmenu-->
-                            <nav class="main-menu pull-left">
-                                <div class="navbar-header">   	
-                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <!--Start Preloader -->
+        <div class="preloader"></div>
+        <!--End Preloader -->
+
+        <!--Start mainmenu area-->
+        <section class="mainmenu-area stricky">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 clearfix">
+                        <!--Start logo-->
+                        <div class="logo pull-left">
+                            <a href="index.html">
+                                <span class="main">Culrav</span>
+                            </a>
+                        </div>
+                        <!--End logo-->
+                        <!--Start mainmenu-->
+                        <nav class="main-menu pull-left">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                                         <span class="icon-bar"></span>
                                         <span class="icon-bar"></span>
                                         <span class="icon-bar"></span>
                                     </button>
-                                </div>
-                                <div class="navbar-collapse collapse clearfix">
-                                    <ul class="navigation clearfix">
-                                        <li class="current"><a href="#">Home</a></li>
-                                        <li ><a href="./events_new.html">Events</a></li>
-                                        <li><a href="#speakers">Speakers</a></li>           
-                                        <li><a href="#sponsors">Sponsors</a></li>
-                                        <li><a href="#contact">Contact Us</a></li>
-                                    </ul>
-                                </div>
-                            </nav>
-                            <!--End mainmenu-->
-                            <!--Start mainmenu right box-->
+                            </div>
+                            <div class="navbar-collapse collapse clearfix">
+                                <ul class="navigation clearfix">
+                                    <li class="current"><a href="#">Home</a></li>
+                                    <li><a href="./events_new.html">Events</a></li>
+                                    <li><a href="#speakers">Speakers</a></li>
+                                    <li><a href="#sponsors">Sponsors</a></li>
+                                    <li><a href="#contact">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                        <!--End mainmenu-->
+                        <!--Start mainmenu right box-->
 
-                            <!--End mainmenu right box-->
-                        </div>   
+                        <!--End mainmenu right box-->
                     </div>
                 </div>
-            </section>
-            <!--End mainmenu area-->
+            </div>
+        </section>
+        <!--End mainmenu area-->
 
-            <!--Main Slider-->
-            <section class="main-slider">
-                <div class="rev_slider_wrapper fullwidthbanner-container"  id="rev_slider_one_wrapper" data-source="gallery" style="position:absolute;right:40px">
-                    <div class="rev_slider fullwidthabanner" id="rev_slider_one" data-version="5.4.1">
-                        <ul>
-                            <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1688" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/main-slider/image-1.jpg" data-title="Slide Title" data-transition="parallaxvertical">
+        <!--Main Slider-->
+        <section class="main-slider">
+            <div class="rev_slider_wrapper fullwidthbanner-container" id="rev_slider_one_wrapper" data-source="gallery" style="position:absolute;right:40px">
+                <div class="rev_slider fullwidthabanner" id="rev_slider_one" data-version="5.4.1">
+                    <ul>
+                        <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1688" data-masterspeed="default"
+                            data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/main-slider/image-1.jpg"
+                            data-title="Slide Title" data-transition="parallaxvertical">
 
-                                <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/bg.jpg"> 
+                            <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="images/bg.jpg">
 
 
 
-                                <div class="tp-caption" 
-                                data-paddingbottom="[0,0,0,0]"
-                                data-paddingleft="[0,0,0,0]"
-                                data-paddingright="[0,0,0,0]"
-                                data-paddingtop="[0,0,0,0]"
-                                data-responsive_offset="on"
-                                data-type="text"
-                                data-height="none"
-                                data-width="['1000','1000','800','450']"
-                                data-whitespace="normal"
-                                data-hoffset="['0','0','0','0']"
-                                data-voffset="['-57','-60','-40','-50']"
-                                data-x="['center','center','center','center']"
-                                data-y="['middle','middle','middle','middle']"
-                                data-textalign="['top','top','top','top']"
-                                data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
+                            <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['1000','1000','800','450']" data-whitespace="normal"
+                                data-hoffset="['0','0','0','0']" data-voffset="['-57','-60','-40','-50']" data-x="['center','center','center','center']" data-y="['middle','middle','middle','middle']" data-textalign="['top','top','top','top']" data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
                                 style="z-index: 7; white-space: nowrap;text-transform:left;">
                                 <div class="slide-content text-center event-details">
-                                    <h1 class="event-name" style="font-family:'Freckle Face' ,cursive;font-size:6em;font-weight:400">CULRAV</h1>
+                                    <h1 class="event-name" style="font-family:feast;font-size:6em;font-weight:400">CULRAV&nbsp;</h1>
                                     <br>
-                                    <h2 class="event-date">18<sup>th</sup> - 21<sup>st</sup> March 2018</h2>
+                                    <h2 class="event-date">21<sup>th</sup> - 24<sup>st</sup> March 2018</h2>
                                     <div class="slide-content text-center">
 
                                     </div>
                                 </div>
                             </div>
 
-                 <!--    <div class="tp-caption" 
-                    data-paddingbottom="[0,0,0,0]"
-                    data-paddingleft="[0,0,0,0]"
-                    data-paddingright="[0,0,0,0]"
-                    data-paddingtop="[0,0,0,0]"
-                    data-responsive_offset="on"
-                    data-type="text"
-                    data-height="none"
-                    data-width="['800','700','600','450']"
-                    data-whitespace="normal"
-                    data-hoffset="['0','0','0','0']"
-                    data-voffset="['15','20','50','40']"
-                    data-x="['center','center','center','center']"
-                    data-y="['middle','middle','middle','middle']"
-                    data-textalign="['top','top','top','top']"
-                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-                    style="z-index: 7; white-space: nowrap;text-transform:left;">
-                        <div class="slide-content text-center">
-                            <div class="text">Must explain to you how all this mistaken idea of denouncing pleasure and seds praising<br> pain was born and I will give you a complete account.</div>
-                        </div>
-                    </div> -->
 
-                    <!-- <div class="tp-caption tp-resizeme" 
-                    data-paddingbottom="[0,0,0,0]"
-                    data-paddingleft="[0,0,0,0]"
-                    data-paddingright="[0,0,0,0]"
-                    data-paddingtop="[0,0,0,0]"
-                    data-responsive_offset="on"
-                    data-type="text"
-                    data-height="none"
-                    data-width="['700','700','700','450']"
-                    data-whitespace="normal"
-                    data-hoffset="['0','0','0','0']"
-                    data-voffset="['105','105','125','120']"
-                    data-x="['center','center','center','center']"
-                    data-y="['middle','middle','middle','middle']"
-                    data-textalign="['top','top','top','top']"
-                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-                    style="z-index: 7; white-space: nowrap;text-transform:left;">
-                        <div class="slide-content text-center">
-                            <div class="btns-box"> 
-                                <a href="#" class="thm-btn btn-style-one" ><span class="fa fa-arrow-circle-right"></span>&ensp;Register</a>
-                            </div>
-                        </div>
-                    </div> -->
 
                 </div>
             </div>
@@ -197,9 +162,9 @@
                             <div class="countdown-timer">
                                 <div class="default-coundown">
                                     <div class="box">
-                                        <div class="countdown time-countdown-two" data-countdown-time="2018/03/18"></div>
+                                        <div class="countdown time-countdown-two" data-countdown-time="2018/03/21"></div>
                                     </div>
-                                </div>          
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -214,546 +179,737 @@
             <div class="container">
 
                 <div class="row">
-                    <div class="col-md-6">   
-                       <div class="sec-title">
-                        <div class="underlay">
-                            <h2>About<span> Culrav</span></h2>
-                        </div>
-                        <h1>About Culrav</h1>
-                    </div> 
-                    <div class="text-holder" style="font-family: 'Roboto Slab', serif;">
-                        <b class="tag-line">And suddenly you just know..its time to start something new..and trust the magic of beginnings!!</b>
-                        <p class="top-text">The withering winters and advent of spring are supposed to mean something for the MNNIT folks. They are the signs of the surfacing of the excitement for the pomp and the show. These are the signs for the hobbies to become the competition, to envelope the college of technology into a buzzing hub of budding singers, struggling actors or unstoppable dancers. </p>
-
-
-                    </div>  
-                </div>
-                <div class="col-md-6">
-                    <div class="img-holder">
-                        <iframe width="100%" height="400" src="https://www.youtube.com/embed/_Ifnk69C9NE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                 </div>
-             </div>
-         </div>
-     </div>
- </section>
- <!--End about area-->
-
-
-
-
-
- <!--Start team area-->
- <section id="speakers" class="event-area" style="background-image:url(images/team/team-bg.jpg);">
-    <div class="container">
-        <div class="sec-title text-center">
-            <div class="underlay text-center">
-                <h2>Past<span> Speakers</span></h2>
-            </div>
-            <h1>Past Speakers</h1>
-        </div>
-        <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="team-members">
-                    <!--Start single team member-->
-                    <div class="single-team-member">
-                        <div class="img-holder">
-                            <img src="images/team/1.jpg" alt="Awesome Image">
-                            <div class="overlay-style-one">
-                                <div class="box">
-                                    <div class="content">
-                                        <ul class="social-links">
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
+                    <div class="col-md-6">
+                        <div class="sec-title">
+                            <div class="underlay">
+                                <h2>About<span> Culrav</span></h2>
                             </div>
+                            <h1>About Culrav</h1>
                         </div>
-                        <div class="text-holder">
-                            <h3>Agaton Johnsson</h3>
-                            <span>iOS Developer</span>
-                        </div>    
+                        <div class="text-holder" style="font-family: 'Roboto Slab', serif;">
+                            <b class="tag-line">And suddenly you just know..its time to start something new..and trust the magic of beginnings!!</b>
+                            <p class="top-text">The withering winters and advent of spring are supposed to mean something for the MNNIT folks. They are the signs of the surfacing of the excitement for the pomp and the show. These are the signs for the hobbies to become the
+                                competition, to envelope the college of technology into a buzzing hub of budding singers, struggling actors or unstoppable dancers. </p>
+
+
+                        </div>
                     </div>
-                    <!--End single team member-->
-                    <!--Start single team member-->
-                    <div class="single-team-member">
+                    <div class="col-md-6">
                         <div class="img-holder">
-                            <img src="images/team/2.jpg" alt="Awesome Image">
-                            <div class="overlay-style-one">
-                                <div class="box">
-                                    <div class="content">
-                                        <ul class="social-links">
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
+                            <iframe width="100%" height="400" src="https://www.youtube.com/embed/_Ifnk69C9NE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                         </div>
-                        <div class="text-holder">
-                            <h3>Mattias Berglund</h3>
-                            <span>Software Engineer</span>
-                        </div>    
                     </div>
-                    <!--End single team member-->
-                    <!--Start single team member-->
-                    <div class="single-team-member">
-                        <div class="img-holder">
-                            <img src="images/team/3.jpg" alt="Awesome Image">
-                            <div class="overlay-style-one">
-                                <div class="box">
-                                    <div class="content">
-                                        <ul class="social-links">
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="text-holder">
-                            <h3>Robin Guzman</h3>
-                            <span>VFX Animation</span>
-                        </div>    
-                    </div>
-                    <!--End single team member-->
-                    <!--Start single team member-->
-                    <div class="single-team-member">
-                        <div class="img-holder">
-                            <img src="images/team/4.jpg" alt="Awesome Image">
-                            <div class="overlay-style-one">
-                                <div class="box">
-                                    <div class="content">
-                                        <ul class="social-links">
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="text-holder">
-                            <h3>Venanda Bond</h3>
-                            <span>Microsoft</span>
-                        </div>    
-                    </div>
-                    <!--End single team member-->
-                    <!--Start single team member-->
-                    <div class="single-team-member">
-                        <div class="img-holder">
-                            <img src="images/team/5.jpg" alt="Awesome Image">
-                            <div class="overlay-style-one">
-                                <div class="box">
-                                    <div class="content">
-                                        <ul class="social-links">
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="text-holder">
-                            <h3>Melisa Lund</h3>
-                            <span>Chairman, Pant & Co</span>
-                        </div>    
-                    </div>
-                    <!--End single team member-->
-                    <!--Start single team member-->
-                    <div class="single-team-member">
-                        <div class="img-holder">
-                            <img src="images/team/6.jpg" alt="Awesome Image">
-                            <div class="overlay-style-one">
-                                <div class="box">
-                                    <div class="content">
-                                        <ul class="social-links">
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="text-holder">
-                            <h3>Joe Zelving</h3>
-                            <span>Technical Analysit</span>
-                        </div>    
-                    </div>
-                    <!--End single team member-->
-                    <!--Start single team member-->
-                    <div class="single-team-member">
-                        <div class="img-holder">
-                            <img src="images/team/7.jpg" alt="Awesome Image">
-                            <div class="overlay-style-one">
-                                <div class="box">
-                                    <div class="content">
-                                        <ul class="social-links">
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="text-holder">
-                            <h3>John Braig</h3>
-                            <span>Designer</span>
-                        </div>    
-                    </div>
-                    <!--End single team member-->
-                    <!--Start single team member-->
-                    <div class="single-team-member">
-                        <div class="img-holder">
-                            <img src="images/team/8.jpg" alt="Awesome Image">
-                            <div class="overlay-style-one">
-                                <div class="box">
-                                    <div class="content">
-                                        <ul class="social-links">
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="text-holder">
-                            <h3>Jermey Van</h3>
-                            <span>IT Consultant</span>
-                        </div>    
-                    </div>
-                    <!--End single team member-->  
-                </div>    
-            </div>
-        </div>
-    </div>
-</section> 
-<!--End team area--> 
-
-<!--Start brand area-->  
-<section id="sponsors" class="brand-area">
-    <div class="container">
-        <div class="sec-title">
-            <div class="underlay">
-                <h2>Past<span>Sponsors</span></h2>
-            </div>
-            <h1>Past Sponsors</h1>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="brand-tab-box">
-                    <ul class="nav nav-tabs tab-menu">
-                        <li class="active"><a href="#media" data-toggle="tab">Media Partners</a></li>
-                        <li><a href="#golden" data-toggle="tab">Golden Sponsors</a></li>
-                    </ul>
-                    <div class="tab-content">
-                        <div class="tab-pane active" id="media">
-                            <div class="row">
-                                <!--Start single item-->
-                                <div class="col-md-3 col-sm-6 col-xs-12">
-                                    <div class="single-item">
-                                        <img src="images/brand/5.png" alt="Awesome Image">
-                                    </div>
-                                </div>
-                                <!--End single item-->
-                                <!--Start single item-->
-                                <div class="col-md-3 col-sm-6 col-xs-12">
-                                    <div class="single-item">
-                                        <img src="images/brand/6.png" alt="Awesome Image">
-                                    </div>
-                                </div>
-                                <!--End single item-->
-                                <!--Start single item-->
-                                <div class="col-md-3 col-sm-6 col-xs-12">
-                                    <div class="single-item">
-                                        <img src="images/brand/7.png" alt="Awesome Image">
-                                    </div>
-                                </div>
-                                <!--End single item-->
-                                <!--Start single item-->
-                                <div class="col-md-3 col-sm-6 col-xs-12">
-                                    <div class="single-item">
-                                        <img src="images/brand/8.png" alt="Awesome Image">
-                                    </div>
-                                </div>
-                                <!--End single item-->
-                            </div>
-                            <div class="row">
-                                <!--Start single item-->
-                                <div class="col-md-3 col-sm-6 col-xs-12">
-                                    <div class="single-item">
-                                        <img src="images/brand/1.png" alt="Awesome Image">
-                                    </div>
-                                </div>
-                                <!--End single item-->
-                                <!--Start single item-->
-                                <div class="col-md-3 col-sm-6 col-xs-12">
-                                    <div class="single-item">
-                                        <img src="images/brand/2.png" alt="Awesome Image">
-                                    </div>
-                                </div>
-                                <!--End single item-->
-                                <!--Start single item-->
-                                <div class="col-md-3 col-sm-6 col-xs-12">
-                                    <div class="single-item">
-                                        <img src="images/brand/3.png" alt="Awesome Image">
-                                    </div>
-                                </div>
-                                <!--End single item-->
-                                <!--Start single item-->
-                                <div class="col-md-3 col-sm-6 col-xs-12">
-                                    <div class="single-item">
-                                        <img src="images/brand/4.png" alt="Awesome Image">
-                                    </div>
-                                </div>
-                                <!--End single item-->
-                            </div>
-                        </div>
-                        <div class="tab-pane" id="golden">
-                            <div class="row">
-                                <!--Start single item-->
-                                <div class="col-md-3 col-sm-6 col-xs-12">
-                                    <div class="single-item">
-                                        <img src="images/brand/1.png" alt="Awesome Image">
-                                    </div>
-                                </div>
-                                <!--End single item-->
-                                <!--Start single item-->
-                                <div class="col-md-3 col-sm-6 col-xs-12">
-                                    <div class="single-item">
-                                        <img src="images/brand/2.png" alt="Awesome Image">
-                                    </div>
-                                </div>
-                                <!--End single item-->
-                                <!--Start single item-->
-                                <div class="col-md-3 col-sm-6 col-xs-12">
-                                    <div class="single-item">
-                                        <img src="images/brand/3.png" alt="Awesome Image">
-                                    </div>
-                                </div>
-                                <!--End single item-->
-                                <!--Start single item-->
-                                <div class="col-md-3 col-sm-6 col-xs-12">
-                                    <div class="single-item">
-                                        <img src="images/brand/4.png" alt="Awesome Image">
-                                    </div>
-                                </div>
-                                <!--End single item-->
-                            </div>
-                            <div class="row">
-                                <!--Start single item-->
-                                <div class="col-md-3 col-sm-6 col-xs-12">
-                                    <div class="single-item">
-                                        <img src="images/brand/5.png" alt="Awesome Image">
-                                    </div>
-                                </div>
-                                <!--End single item-->
-                                <!--Start single item-->
-                                <div class="col-md-3 col-sm-6 col-xs-12">
-                                    <div class="single-item">
-                                        <img src="images/brand/6.png" alt="Awesome Image">
-                                    </div>
-                                </div>
-                                <!--End single item-->
-                                <!--Start single item-->
-                                <div class="col-md-3 col-sm-6 col-xs-12">
-                                    <div class="single-item">
-                                        <img src="images/brand/7.png" alt="Awesome Image">
-                                    </div>
-                                </div>
-                                <!--End single item-->
-                                <!--Start single item-->
-                                <div class="col-md-3 col-sm-6 col-xs-12">
-                                    <div class="single-item">
-                                        <img src="images/brand/8.png" alt="Awesome Image">
-                                    </div>
-                                </div>
-                                <!--End single item-->
-                            </div>      
-                        </div>
-
-                    </div>      
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="partners-button text-center">
-                    <a class="thm-btn" href="#">View All Partners</a>
+        </section>
+        <!--End about area-->
+
+
+
+
+
+        <!--Start team area-->
+        <section id="speakers" class="event-area" style="background-image:url(images/team/team-bg.jpg);">
+            <div class="container">
+                <div class="sec-title text-center">
+                    <div class="underlay text-center">
+                        <h2>Past<span> Speakers</span></h2>
+                    </div>
+                    <h1>Past Speakers</h1>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="team-members">
+                            <!--Start single team member-->
+                            <div class="single-team-member">
+                                <div class="img-holder">
+                                    <img src="images/team/arnabh.jpg" alt="Awesome Image">
+                                    <div class="overlay-style-one">
+                                        <div class="box">
+                                            <div class="content">
+                                                <ul class="social-links">
+                                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-holder">
+                                    <h3>Arunabh Kumar</h3>
+
+                                </div>
+                            </div>
+                            <!--End single team member-->
+                            <!--Start single team member-->
+                            <div class="single-team-member">
+                                <div class="img-holder">
+                                    <img src="images/team/kumar-vishwas.jpg" alt="Awesome Image">
+                                    <div class="overlay-style-one">
+                                        <div class="box">
+                                            <div class="content">
+                                                <ul class="social-links">
+                                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-holder">
+                                    <h3>Kumar Vishwas</h3>
+
+                                </div>
+                            </div>
+                            <!--End single team member-->
+                            <!--Start single team member-->
+                            <div class="single-team-member">
+                                <div class="img-holder">
+                                    <img src="images/team/varun-grover.jpg" alt="Awesome Image">
+                                    <div class="overlay-style-one">
+                                        <div class="box">
+                                            <div class="content">
+                                                <ul class="social-links">
+                                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-holder">
+                                    <h3>Varun Grover</h3>
+
+                                </div>
+                            </div>
+                            <!--End single team member-->
+                            <!--Start single team member-->
+                            <div class="single-team-member">
+                                <div class="img-holder">
+                                    <img src="images/team/rahul-ram.jpg" alt="Awesome Image">
+                                    <div class="overlay-style-one">
+                                        <div class="box">
+                                            <div class="content">
+                                                <ul class="social-links">
+                                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-holder">
+                                    <h3>Rahul Ram</h3>
+
+                                </div>
+                            </div>
+                            <!--End single team member-->
+                            <!--Start single team member-->
+                            <div class="single-team-member">
+                                <div class="img-holder">
+                                    <img src="images/team/Daira-Band.jpg" alt="Awesome Image">
+                                    <div class="overlay-style-one">
+                                        <div class="box">
+                                            <div class="content">
+                                                <ul class="social-links">
+                                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-holder">
+                                    <h3>Daira Band</h3>
+
+                                </div>
+                            </div>
+                            <!--End single team member-->
+                            <!--Start single team member-->
+                            <div class="single-team-member">
+                                <div class="img-holder">
+                                    <img src="images/team/jam.jpg" alt="Awesome Image">
+                                    <div class="overlay-style-one">
+                                        <div class="box">
+                                            <div class="content">
+                                                <ul class="social-links">
+                                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-holder">
+                                    <h3>Indian Jam Project</h3>
+
+                                </div>
+                            </div>
+                            <!--End single team member-->
+                            <!--Start single team member-->
+                            <div class="single-team-member">
+                                <div class="img-holder">
+                                    <img src="images/team/piyush.jpg" alt="Awesome Image">
+                                    <div class="overlay-style-one">
+                                        <div class="box">
+                                            <div class="content">
+                                                <ul class="social-links">
+                                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-holder">
+                                    <h3>Piyush Mishra</h3>
+
+                                </div>
+                            </div>
+                            <!--End single team member-->
+                            <!--Start single team member-->
+                            <div class="single-team-member">
+                                <div class="img-holder">
+                                    <img src="images/team/rajat.jpg" alt="Awesome Image">
+                                    <div class="overlay-style-one">
+                                        <div class="box">
+                                            <div class="content">
+                                                <ul class="social-links">
+                                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-holder">
+                                    <h3>Rajat Kapoor</h3>
+
+                                </div>
+                            </div>
+                            <!--End single team member-->
+                            <!--Start single team member-->
+                            <div class="single-team-member">
+                                <div class="img-holder">
+                                    <img src="images/team/vinay.jpg" alt="Awesome Image">
+                                    <div class="overlay-style-one">
+                                        <div class="box">
+                                            <div class="content">
+                                                <ul class="social-links">
+                                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-holder">
+                                    <h3>Vinay Pathak</h3>
+
+                                </div>
+                            </div>
+                            <!--End single team member-->
+                            <!--Start single team member-->
+                            <div class="single-team-member">
+                                <div class="img-holder">
+                                    <img src="images/team/Shirley.jpg" alt="Awesome Image">
+                                    <div class="overlay-style-one">
+                                        <div class="box">
+                                            <div class="content">
+                                                <ul class="social-links">
+                                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-holder">
+                                    <h3>Shirley Setia</h3>
+
+                                </div>
+                            </div>
+                            <!--End single team member-->
+                            <!--Start single team member-->
+                            <div class="single-team-member">
+                                <div class="img-holder">
+                                    <img src="images/team/farhan.jpg" alt="Awesome Image">
+                                    <div class="overlay-style-one">
+                                        <div class="box">
+                                            <div class="content">
+                                                <ul class="social-links">
+                                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-holder">
+                                    <h3>Farhan Akhtar</h3>
+
+                                </div>
+                            </div>
+                            <!--End single team member-->
+                            <!--Start single team member-->
+                            <div class="single-team-member">
+                                <div class="img-holder">
+                                    <img src="images/team/chethanbajaj.jpg" alt="Awesome Image">
+                                    <div class="overlay-style-one">
+                                        <div class="box">
+                                            <div class="content">
+                                                <ul class="social-links">
+                                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-holder">
+                                    <h3>Chethan Bajaj</h3>
+
+                                </div>
+                            </div>
+                            <!--End single team member-->
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-</section>
-<!--End brand area-->
+        </section>
+        <!--End team area-->
+
+        <!--Start brand area-->
+        <section id="sponsors" class="brand-area">
+            <div class="container">
+                <div class="sec-title">
+                    <div class="underlay">
+                        <h2>Past<span>Sponsors</span></h2>
+                    </div>
+                    <h1>Past Sponsors</h1>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="brand-tab-box">
+
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="media">
+                                    <div class="row">
+                                        <!--Start single item-->
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="single-item">
+                                                <img src="images/brand/levi's.png" alt="Awesome Image">
+                                            </div>
+                                        </div>
+                                        <!--End single item-->
+                                        <!--Start single item-->
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="single-item">
+                                                <img src="images/brand/lazyninja.jpeg" alt="Awesome Image">
+                                            </div>
+                                        </div>
+                                        <!--End single item-->
+                                        <!--Start single item-->
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="single-item">
+                                                <img src="images/brand/career.png" alt="Awesome Image">
+                                            </div>
+                                        </div>
+                                        <!--End single item-->
+                                        <!--Start single item-->
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="single-item">
+                                                <img src="images/brand/hercules.png" alt="Awesome Image">
+                                            </div>
+                                        </div>
+                                        <!--End single item-->
+                                    </div>
+                                    <div class="row">
+                                        <!--Start single item-->
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="single-item">
+                                                <img src="images/brand/ims.jpeg" alt="Awesome Image">
+                                            </div>
+                                        </div>
+                                        <!--End single item-->
+                                        <!--Start single item-->
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="single-item">
+                                                <img src="images/brand/ktpl.png" alt="Awesome Image">
+                                            </div>
+                                        </div>
+                                        <!--End single item-->
+                                        <!--Start single item-->
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="single-item">
+                                                <img src="images/brand/Nimbooz.jpeg" alt="Awesome Image">
+                                            </div>
+                                        </div>
+                                        <!--End single item-->
+                                        <!--Start single item-->
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="single-item">
+                                                <img src="images/brand/BSA.png" alt="Awesome Image">
+                                            </div>
+                                        </div>
+                                        <!--End single item-->
+                                    </div>
+                                    <div class="row">
+                                        <!--Start single item-->
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="single-item">
+                                                <img src="images/brand/Tata.png" alt="Awesome Image">
+                                            </div>
+                                        </div>
+                                        <!--End single item-->
+                                        <!--Start single item-->
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="single-item">
+                                                <img src="images/brand/thinklabs.png" alt="Awesome Image">
+                                            </div>
+                                        </div>
+                                        <!--End single item-->
+                                        <!--Start single item-->
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="single-item">
+                                                <img src="images/brand/time.jpg" alt="Awesome Image">
+                                            </div>
+                                        </div>
+                                        <!--End single item-->
+                                        <!--Start single item-->
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="single-item">
+                                                <img src="images/brand/Cola.png" alt="Awesome Image">
+                                            </div>
+                                        </div>
+                                        <!--End single item-->
+                                    </div>
+                                    <div class="row">
+                                        <!--Start single item-->
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="single-item">
+                                                <img src="images/brand/SBI.png" alt="Awesome Image">
+                                            </div>
+                                        </div>
+                                        <!--End single item-->
+                                        <!--Start single item-->
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="single-item">
+                                                <img src="images/brand/Nescafe.png" alt="Awesome Image">
+                                            </div>
+                                        </div>
+                                        <!--End single item-->
+                                        <!--Start single item-->
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="single-item">
+                                                <img src="images/brand/aricent.jpg" alt="Awesome Image">
+                                            </div>
+                                        </div>
+                                        <!--End single item-->
+                                        <!--Start single item-->
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="single-item">
+                                                <img src="images/brand/sonata.jpg" alt="Awesome Image">
+                                            </div>
+                                        </div>
+                                        <!--End single item-->
+                                    </div>
+                                    <div class="row">
+                                        <!--Start single item-->
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="single-item">
+                                                <img src="images/brand/Agmatel.jpg" alt="Awesome Image">
+                                            </div>
+                                        </div>
+                                        <!--End single item-->
+                                        <!--Start single item-->
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="single-item">
+                                                <img src="images/brand/koutons.jpg" alt="Awesome Image">
+                                            </div>
+                                        </div>
+                                        <!--End single item-->
+                                        <!--Start single item-->
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="single-item">
+                                                <img src="images/brand/birla-gold.png" alt="Awesome Image">
+                                            </div>
+                                        </div>
+                                        <!--End single item-->
+                                        <!--Start single item-->
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="single-item">
+                                                <img src="images/brand/Myntra.png" alt="Awesome Image">
+                                            </div>
+                                        </div>
+                                        <!--End single item-->
+                                    </div>
+                                    <div class="row">
+                                        <!--Start single item-->
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="single-item">
+                                                <img src="images/brand/PNB.jpg" alt="Awesome Image">
+                                            </div>
+                                        </div>
+                                        <!--End single item-->
+                                        <!--Start single item-->
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="single-item">
+                                                <img src="images/brand/Bikanervala.png" alt="Awesome Image">
+                                            </div>
+                                        </div>
+                                        <!--End single item-->
+                                        <!--Start single item-->
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="single-item">
+                                                <img src="images/brand/union-bank.png" alt="Awesome Image">
+                                            </div>
+                                        </div>
+                                        <!--End single item-->
+                                        <!--Start single item-->
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="single-item">
+                                                <img src="images/brand/dell.png" alt="Awesome Image">
+                                            </div>
+                                        </div>
+                                        <!--End single item-->
+                                    </div>
+                                    <div class="row">
+                                        <!--Start single item-->
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="single-item">
+                                                <img src="images/brand/vijaya.png" alt="Awesome Image">
+                                            </div>
+                                        </div>
+                                        <!--End single item-->
+                                        <!--Start single item-->
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="single-item">
+                                                <img src="images/brand/dairy.jpg" alt="Awesome Image">
+                                            </div>
+                                        </div>
+                                        <!--End single item-->
+                                        <!--Start single item-->
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="single-item">
+                                                <img src="images/brand/pepsi.png" alt="Awesome Image">
+                                            </div>
+                                        </div>
+                                        <!--End single item-->
+                                        <!--Start single item-->
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="single-item">
+                                                <img src="images/brand/gate.jpg" alt="Awesome Image">
+                                            </div>
+                                        </div>
+                                        <!--End single item-->
+                                    </div>
+                                    <div class="row">
+                                        <!--Start single item-->
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="single-item">
+                                                <img src="images/brand/digit.png" alt="Awesome Image">
+                                            </div>
+                                        </div>
+                                        <!--End single item-->
+                                        <!--Start single item-->
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="single-item">
+                                                <img src="images/brand/bakh.jpg" alt="Awesome Image">
+                                            </div>
+                                        </div>
+                                        <!--End single item-->
+                                        <!--Start single item-->
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="single-item">
+                                                <img src="images/brand/glozon.png" alt="Awesome Image">
+                                            </div>
+                                        </div>
+                                        <!--End single item-->
+                                        <!--Start single item-->
+                                        <div class="col-md-3 col-sm-6 col-xs-12">
+                                            <div class="single-item">
+                                                <img src="images/brand/kodak.png" alt="Awesome Image">
+                                            </div>
+                                        </div>
+                                        <!--End single item-->
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!--End brand area-->
 
 
 
-<!--Start home map area-->
-<section  id="contact" class="home-map-area">
-<div class="container-fluid">
-        <div class="google-map-inner">
-            <div 
-            class="google-map" 
-            id="home-google-map" 
-            data-map-lat="25.4920" 
-            data-map-lng="81.8639" 
-            
-            data-map-title="MNNIT Allahabad, India" 
-            data-map-zoom="12" 
-            data-markers='{
+        <!--Start home map area-->
+        <section id="contact" class="home-map-area">
+            <div class="container-fluid">
+                <div class="google-map-inner">
+                    <div class="google-map" id="home-google-map" data-map-lat="25.4920" data-map-lng="81.8639" data-map-title="MNNIT Allahabad, India" data-map-zoom="12" data-markers='{
             "marker-1": [25.4920,81.8639, "<h4>MNNIT Allahabad</h4><p>MNNIT Allahabad, India</p>"]
         }'>
-    </div>
-</div>
-<!-- <iframe src="www.google.com/maps/embed/v1/place?q=MNNIT
+                    </div>
+                </div>
+                <!-- <iframe src="www.google.com/maps/embed/v1/place?q=MNNIT
       &zoom=17
       &key=AIzaSyBiSvY8R_fwog81mDBRMsq5HrZ8F31uZqc">
   </iframe> -->
-<div class="container">
-    <div class="contact-info">
-        <div class="title">
-            <h3>Contact Details</h3>
-        </div>
-        <ul>
-            <li>
-                <div class="icon-holder">
-                    <span class="flaticon-arrows"></span>
-                </div>
-                <div class="text-holder">
-                    <h3>Address</h3>
-                    <p>MNNIT Allahabad,<br>Allahabad, India</p>
-                </div>
-            </li>
-            <li>
-                <div class="icon-holder">
-                    <span class="flaticon-note"></span>
-                </div>
-                <div class="text-holder">
-                    <h3>Send Mail Us</h3>
-                    <p>Wesupportyou@Evento.com</p>
-                </div>
-            </li>
-            <li>
-                <div class="icon-holder">
-                    <span class="flaticon-tool"></span>
-                </div>
-                <div class="text-holder">
-                    <h3>Organizer</h3>
-                    <p>Phone: +123-456-7890 & 4567</p>
-                </div>
-            </li>
-        </ul>
-    </div>
-</div>  
-</div>
-</section>
-<!--End home map area-->
-
-
-
-<!--Start footer bottom area-->
-<section class="footer-bottom-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-md-7 col-sm-12 col-xs-12">
-                <div class="copyright-text">
-                    <p>Copyrights © 2018 All Rights Reserved</p>
+                <div class="container">
+                    <div class="contact-info">
+                        <div class="title">
+                            <h3>Contact Details</h3>
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="icon-holder">
+                                    <span class="flaticon-arrows"></span>
+                                </div>
+                                <div class="text-holder">
+                                    <h3>Address</h3>
+                                    <p>MNNIT Allahabad,<br>Allahabad, India</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon-holder">
+                                    <span class="flaticon-note"></span>
+                                </div>
+                                <div class="text-holder">
+                                    <h3>Send Mail Us</h3>
+                                    <p>Wesupportyou@Evento.com</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon-holder">
+                                    <span class="flaticon-tool"></span>
+                                </div>
+                                <div class="text-holder">
+                                    <h3>Organizer</h3>
+                                    <p>Phone: +123-456-7890 & 4567</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-5 col-sm-12 col-xs-12">
-                <ul class="footer-menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#sponsors">Sponsors</a></li>
-                    <li><a href="#speakers">Speakers</a></li>
-                    
-                </ul>
+        </section>
+        <!--End home map area-->
+
+
+
+        <!--Start footer bottom area-->
+        <section class="footer-bottom-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-7 col-sm-12 col-xs-12">
+                        <div class="copyright-text">
+                            <p>Copyrights © 2018 All Rights Reserved</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-5 col-sm-12 col-xs-12">
+                        <ul class="footer-menu">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#sponsors">Sponsors</a></li>
+                            <li><a href="#speakers">Speakers</a></li>
+
+                        </ul>
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
+        <!--End footer bottom area-->
+
+
     </div>
-</section>
-<!--End footer bottom area-->
-
-
-</div>
 
 
 
 
-<!--Scroll to top-->
-<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-chevron-circle-up"></span></div>
+    <!--Scroll to top-->
+    <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-chevron-circle-up"></span></div>
 
-<!-- main jQuery -->
-<script src="js/jquery.js"></script>
-<!-- Wow Script -->
-<script src="js/wow.js"></script>
-<!-- bootstrap -->
-<script src="js/bootstrap.min.js"></script>
-<!-- bx slider -->
-<script src="js/jquery.bxslider.min.js"></script>
-<!-- count to -->
-<script src="js/jquery.countTo.js"></script>
-<!-- owl carousel -->
-<script src="js/owl.carousel.min.js"></script>
-<!-- validate -->
-<script src="js/validation.js"></script>
-<!-- mixit up -->
-<script src="js/jquery.mixitup.min.js"></script>
-<!-- easing -->
-<script src="js/jquery.easing.min.js"></script>
-<!-- gmap helper -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A"></script>
-<!--gmap script-->
-<script src="js/gmaps.js"></script>
-<script src="js/map-helper.js"></script>
-<!-- fancy box -->
-<script src="js/jquery.fancybox.pack.js"></script>
-<script src="js/jquery.appear.js"></script>
-<!-- isotope script-->
-<script src="js/isotope.js"></script>
-<script src="js/jquery.prettyPhoto.js"></script> 
-<script src="js/jquery.bootstrap-touchspin.js"></script>
-<!-- jQuery timepicker js -->
-<script src="assets/timepicker/timePicker.js"></script>
-<!-- Bootstrap select picker js -->
-<script src="assets/bootstrap-sl-1.12.1/bootstrap-select.js"></script>                               
-<!-- Bootstrap bootstrap touchspin js -->
-<!-- jQuery ui js -->
-<script src="assets/jquery-ui-1.11.4/jquery-ui.js"></script>
-<!-- Language Switche  -->
-<script src="assets/language-switcher/jquery.polyglot.language.switcher.js"></script>
-<!-- Html 5 light box script-->
-<script src="assets/html5lightbox/html5lightbox.js"></script>
-<!-- Countdown Timer script-->
-<script src="js/jquery.countdown.min.js"></script>
-
-
-<!--Revolution Slider-->
-<script src="plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
-<script src="plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
-<script src="plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-<script src="plugins/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-<script src="plugins/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-<script src="plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-<script src="plugins/revolution/js/extensions/revolution.extension.migration.min.js"></script>
-<script src="plugins/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-<script src="plugins/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-<script src="plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-<script src="plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
-<script src="js/main-slider-script.js"></script>
+    <!-- main jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- Wow Script -->
+    <script src="js/wow.js"></script>
+    <!-- bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- bx slider -->
+    <script src="js/jquery.bxslider.min.js"></script>
+    <!-- count to -->
+    <script src="js/jquery.countTo.js"></script>
+    <!-- owl carousel -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- validate -->
+    <script src="js/validation.js"></script>
+    <!-- mixit up -->
+    <script src="js/jquery.mixitup.min.js"></script>
+    <!-- easing -->
+    <script src="js/jquery.easing.min.js"></script>
+    <!-- gmap helper -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A"></script>
+    <!--gmap script-->
+    <script src="js/gmaps.js"></script>
+    <script src="js/map-helper.js"></script>
+    <!-- fancy box -->
+    <script src="js/jquery.fancybox.pack.js"></script>
+    <script src="js/jquery.appear.js"></script>
+    <!-- isotope script-->
+    <script src="js/isotope.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.bootstrap-touchspin.js"></script>
+    <!-- jQuery timepicker js -->
+    <script src="assets/timepicker/timePicker.js"></script>
+    <!-- Bootstrap select picker js -->
+    <script src="assets/bootstrap-sl-1.12.1/bootstrap-select.js"></script>
+    <!-- Bootstrap bootstrap touchspin js -->
+    <!-- jQuery ui js -->
+    <script src="assets/jquery-ui-1.11.4/jquery-ui.js"></script>
+    <!-- Language Switche  -->
+    <script src="assets/language-switcher/jquery.polyglot.language.switcher.js"></script>
+    <!-- Html 5 light box script-->
+    <script src="assets/html5lightbox/html5lightbox.js"></script>
+    <!-- Countdown Timer script-->
+    <script src="js/jquery.countdown.min.js"></script>
 
 
+    <!--Revolution Slider-->
+    <script src="plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
+    <script src="js/main-slider-script.js"></script>
 
-<!-- thm custom script -->
-<script src="js/main-slider-script.js"></script>
-<script src="js/custom.js"></script>
+
+
+    <!-- thm custom script -->
+    <script src="js/main-slider-script.js"></script>
+    <script src="js/custom.js"></script>
 
 
 
@@ -762,4 +918,5 @@
 </body>
 
 <!-- Mirrored from steelthemes.com/demo/html/evento/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 11 Feb 2018 17:56:28 GMT -->
+
 </html>

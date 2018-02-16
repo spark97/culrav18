@@ -2455,7 +2455,7 @@ select:focus {
 .breadcrumb-area .breadcrumbs {}
 
 .breadcrumb-area .breadcrumbs h1 {
-    color: #ffffff;
+    color:#f7f7f7;
     font-size: 48px;
     font-weight: 700;
     line-height: 50px;
@@ -2466,14 +2466,14 @@ select:focus {
 .breadcrumb-bottom-area {
     position: relative;
     overflow: hidden;
-    background: #f7f7f7;
+    background: black;
     padding: 17px 0 16px;
 }
 
 .breadcrumb-bottom .left ul {}
 
 .breadcrumb-bottom .left ul li {
-    color: #202020;
+    color:#f7f7f7;
     font-size: 14px;
     font-weight: 700;
     display: inline-block;
@@ -2488,7 +2488,7 @@ select:focus {
 }
 
 .breadcrumb-bottom .left ul li a {
-    color: #202020;
+    color: #f7f7f7;
     font-size: 14px;
     font-weight: 700;
     transition: all 500ms ease;
@@ -2504,11 +2504,11 @@ select:focus {
 
 .breadcrumb-bottom .left ul li i {
     font-size: 16px;
-    color: #202020;
+    color: #f7f7f7;
 }
 
 .breadcrumb-bottom .right span {
-    color: #202020;
+    color: #f7f7f7;
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
@@ -2570,7 +2570,7 @@ select:focus {
 .about-area.about-page .right-text-holder ul li .icon-holder span:before {
     font-size: 50px;
     line-height: 50px;
-    color: #202020;
+    color: black;
 }
 
 .about-area.about-page .right-text-holder ul li .title-holder {}
@@ -3062,7 +3062,7 @@ select:focus {
 .sponsor-area .single-item .text-holder {}
 
 .sponsor-area .single-item .text-holder h3 {
-    color: #202020;
+    color: black;
     font-size: 20px;
     font-weight: 700;
     line-height: 18px;
@@ -3142,11 +3142,12 @@ select:focus {
 
 .gallery-area.gallery-page {
     padding: 100px 0;
-    background: #ffffff;
+    background: black url("../images/events/back_1_new.jpg");
 }
 
 .gallery-area.gallery-page:before {
-    background: #ffffff;
+    background: black url("../images/events/back_1_new.jpg") center;
+    background-size: cover;
 }
 
 .single-project-item.span-4 {
@@ -3318,7 +3319,7 @@ select:focus {
 .cart-top-text .text {}
 
 .cart-top-text .text p {
-    color: #202020;
+    color: black;
     font-size: 16px;
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
@@ -4101,7 +4102,7 @@ select:focus {
 }
 
 .single-speaker-area .top-content .text-holder .title h2 {
-    color: #202020;
+    color: black;
     font-size: 30px;
     font-weight: 700;
     margin: 0 0 3px;
@@ -4122,7 +4123,7 @@ select:focus {
     border-bottom: 1px solid #efefef;
     display: block;
     padding: 0 20px;
-    color: #202020;
+    color: black;
     font-size: 16px;
     font-weight: 400;
 }
@@ -4346,7 +4347,7 @@ select:focus {
 }
 
 .contact-area .title h2 {
-    color: #202020;
+    color: black;
     font-size: 30px;
     font-weight: 700;
     text-transform: capitalize;
@@ -4358,7 +4359,7 @@ select:focus {
 }
 
 .contact-area .title p {
-    color: #202020;
+    color: black;
     font-size: 18px;
     font-weight: 300;
     margin: 0;
@@ -4371,7 +4372,7 @@ select:focus {
 }
 
 .contact-area .contact-form form label {
-    color: #202020;
+    color: black;
     font-size: 16px;
     display: block;
 }
@@ -4462,7 +4463,7 @@ select:focus {
 .contact-area .contact-info-list li .text-holder {}
 
 .contact-area .contact-info-list li .text-holder h5 {
-    color: #202020;
+    color: black;
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
@@ -4504,7 +4505,7 @@ select:focus {
 }
 
 .contact-area .event-organizer .text-holder h5 {
-    color: #202020;
+    color: black;
     font-weight: 700;
     font-size: 16px;
     margin: 0px 0 5px;
@@ -4564,7 +4565,7 @@ select:focus {
 }
 
 #blog-area .single-blog-item .text-holder .text a.read-more:hover {
-    background: #202020;
+    background: black;
 }
 
 .blog-large-area .blog-post .post-pagination {}
@@ -4592,7 +4593,7 @@ select:focus {
 }
 
 .sidebar-wrapper .single-sidebar .sec-title h3 {
-    color: #202020;
+    color: black;
     font-size: 20px;
     font-weight: 700;
     text-transform: capitalize;
@@ -4722,7 +4723,7 @@ select:focus {
 }
 
 .single-sidebar .popular-post li .title-holder a .post-title {
-    color: #202020;
+    color: black;
     font-size: 16px;
     line-height: 24px;
     position: relative;
@@ -4930,7 +4931,7 @@ select:focus {
 
 .blog-single-area .sec-title h2 {
     font-size: 26px;
-    color: #202020;
+    color: black;
     font-family: 'Roboto', sans-serif;
     margin: 0 0 12px;
     line-height: 34px;
@@ -4960,7 +4961,7 @@ select:focus {
 }
 
 .blog-single-area .single-blog-item .text-holder .blog-title:hover {
-    color: #202020;
+    color: black;
 }
 
 .blog-single-area .single-blog-item .text-holder .meta-info {
@@ -5006,7 +5007,7 @@ select:focus {
 }
 
 .blog-single-area .middle-content-box .text-holder h3 {
-    color: #202020;
+    color: black;
     font-size: 20px;
     font-weight: 700;
     margin: 0px 0 10px;
@@ -5162,7 +5163,7 @@ select:focus {
 }
 
 .blog-single-area .comment-box .single-comment-box .text-holder .top .name h5 {
-    color: #202020;
+    color: black;
     font-size: 16px;
     font-weight: 700;
 }
@@ -5412,7 +5413,7 @@ select:focus {
 
 .single-grid-schedule .bottom .right .social-links .icon-holder i {
     display: block;
-    color: #202020;
+    color: black;
     font-size: 18px;
     padding: 10px 0;
 }
@@ -5524,7 +5525,7 @@ select:focus {
 }
 
 .schedule-single-area .schedule-content .title h2 {
-    color: #202020;
+    color: black;
     font-size: 26px;
     font-weight: 700;
     margin: 0 0 15px;
@@ -5552,7 +5553,7 @@ select:focus {
     padding: 0 20px;
     border-bottom: 1px solid #efefef;
     line-height: 55px;
-    color: #202020;
+    color: black;
     font-weight: 400;
 }
 
@@ -5609,7 +5610,7 @@ select:focus {
 }
 
 .schedule-single-area .event-organizer .text-holder h5 {
-    color: #202020;
+    color: black;
     font-weight: 700;
     font-size: 16px;
     margin: 0px 0 5px;

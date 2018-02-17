@@ -476,7 +476,7 @@ select:focus {
 .mainmenu-area .logo {
     display: inline-block;
     padding-right: 110px;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 20px;
     position: relative;
 }
@@ -737,22 +737,16 @@ select:focus {
 }
 
 .timer-box {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+
     width: 100%;
     height: 120px;
 }
 
 .countdown-timer {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 665px;
+
+
+    width: 100%;
     height: 100%;
-    margin: 0 auto;
     padding: 0 30px;
     background: rgba(255, 255, 255, 0.10);
 }

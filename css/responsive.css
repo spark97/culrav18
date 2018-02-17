@@ -155,22 +155,11 @@
     Mainmenu Area style
 =============================================
 ***/
-    .mainmenu-area.stricky {
+/*    .mainmenu-area.stricky {
         position: relative;
         background: #000;
-    }
-    .mainmenu-area.stricky-fixed {
-        position: fixed;
-        background: #000000;
-    }
-    .mainmenu-area .logo {
-        display: block;
-        padding-right: 0;
-        padding-top: 15px;
-        padding-bottom: 0px;
-        float: none !important;
-        text-align: center;
-    }
+    }*/
+
     .main-menu .navigation li a {
         padding: 21px 7px 19px;
     }
@@ -414,14 +403,7 @@
     Mainmenu area style
 =============================================
 ***/
-    .mainmenu-area.stricky {
-        position: relative;
-        background: #000;
-    }
-    .mainmenu-area.stricky-fixed {
-        position: fixed !important;
-        background: #000000;
-    }
+
     .mainmenu-area .logo {
         display: inline-block;
         padding-right: 30px;
@@ -477,7 +459,7 @@
     .main-menu .navbar-header {
         position: relative;
         float: none;
-        display: block;
+        display: none;
         text-align: right;
         width: 100%;
         padding: 0;
@@ -750,7 +732,7 @@
 =============================================
 ***/
     .home-map-area .contact-info {
-        left: 15px;
+        /*left: 15px;*/
         top: 15%;
         bottom: 15%;
         max-width: 300px;
@@ -878,17 +860,18 @@
     In slider Area countdown style
 =============================================
 ***/
-    .timer-box {
-        position: relative;
-        height: auto;
-        text-align: center;
-    }
+
     .countdown-timer {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        padding: 42px 0 18px;
-        background: #222;
+
+        padding: 18px 0 18px;
+        margin-left: auto;
+        margin-right: auto;
+
+        /*background: #222;*/
+    }
+    .countdown {
+                display: flex;
+        width: 90%;
     }
     .countdown-timer li {
         position: relative;

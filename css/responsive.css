@@ -340,7 +340,7 @@
 .home-map-area .contact-info {
     top: 15%;
     bottom: 15%;
-    left: 15px;
+    right: 15px;
 } 
 
 /*** 
@@ -472,6 +472,10 @@
     Mainmenu area style
 =============================================
 ***/ 
+
+.event-details{
+    text-align: center;
+}
 .mainmenu-area.stricky {
     position: relative;
     background: #000;
@@ -551,6 +555,7 @@
     margin: 20px 0;
     border-radius: 0;
     padding: 11px 9px;
+    margin-right:10%;
 }
 .main-menu .navbar-header .navbar-toggle .icon-bar {
     background: #F07C08 none repeat scroll 0 0;
@@ -821,7 +826,7 @@
 =============================================
 ***/     
 .home-map-area .contact-info {
-    left: 15px;
+    right: 15px;
     top: 15%;
     bottom: 15%;
     max-width: 300px;
